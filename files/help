@@ -1,0 +1,36 @@
+The following are all commands and instructions:
+changecolor: modifies the command line color. Followed by two hexadecimal digits. The first digit is the foreground color and the second is the background color.
+	Usage:changecolor [color]
+cleanscreen: clears all output.
+	Usage:cleanscreen
+diskeditor :manages disks.
+	alldisk: lists all disks
+		Usage:diskeditor alldisk
+	cleanall: clears all disks
+		Usage:diskeditor cleanall
+	delete: deletes a disk
+		Usage:diskeditor delete [diskname]
+	add: creates a new disk.
+		Usage:diskeditor add [diskname]
+fileeditor:operates on files.
+	create:creates a new file
+		Usage:fileeditor create [filename]
+	add:appends content to the file
+		Usage:fileeditor add [content]
+	cover:overwrites the entire text.
+		Usage:fileeditor cover [content]
+filereader:reads files.
+	Usage:filereader [filename]
+filelist:displays all files under the disk.
+	Usage:filelist
+help:displays all commands and descriptions
+	Usage:help
+usereditor:edits the user. 
+	adduser:adds users
+		Usage:usereditor adduser [username]
+	deleteuser:deletes users
+		Usage:usereditor deleteuser [username]
+	userlist displays all users
+		Usage:usereditor userlist
+version: displays the version of this system.
+	Usage:version
