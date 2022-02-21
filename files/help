@@ -25,6 +25,8 @@ filelist:displays all files under the disk.
 	Usage:filelist
 help:displays all commands and descriptions
 	Usage:help
+time:show time
+	Usage:time
 usereditor:edits the user. 
 	adduser:adds users
 		Usage:usereditor adduser [username]
