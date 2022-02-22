@@ -16,17 +16,15 @@ fileeditor:operates on files.
 	create:creates a new file
 		Usage:fileeditor create [filename]
 	add:appends content to the file
-		Usage:fileeditor add [content]
+		Usage:fileeditor add [filename] [content]
 	cover:overwrites the entire text.
-		Usage:fileeditor cover [content]
+		Usage:fileeditor cover [filename] [content]
 filereader:reads files.
 	Usage:filereader [filename]
 filelist:displays all files under the disk.
 	Usage:filelist
 help:displays all commands and descriptions
 	Usage:help
-time:show time
-	Usage:time
 usereditor:edits the user. 
 	adduser:adds users
 		Usage:usereditor adduser [username]
